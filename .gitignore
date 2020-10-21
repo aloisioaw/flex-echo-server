@@ -1,0 +1,5 @@
+# NPM
+node_modules
+# Certificate files
+key.pem
+cert.pem
