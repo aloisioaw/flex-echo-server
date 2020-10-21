@@ -30,7 +30,6 @@
   "keywords": [
     "http",
     "https",
-    "tcp",
     "echo",
     "server",
     "debug",
