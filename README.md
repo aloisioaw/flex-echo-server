@@ -1,6 +1,6 @@
 # flex-http-echo-server
 
-Based on @watson [http-echo-server](https://github.com/watson/http-echo-server)
+Based on Thomas Watson's [http-echo-server](https://github.com/watson/http-echo-server)
 
 This will create either a HTTP or HTTPS server. The ```npm run start``` script takes care of creating a self-signed certificate to make things easier.
 It replies with the configured HTTP Code(or 200 as a default) and prints the body of the request as well as the URL and Method used.
