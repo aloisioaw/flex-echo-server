@@ -15,16 +15,16 @@ Just curl the URL of the app:
 
 ```
 # When using HTTP: GET
-curl -k https://localhost:56537/trying/out/the/url
+curl http://localhost:56537/trying/out/the/url
 
 # When using HTTPS: GET request that accepts the self-signed certificate
 curl -k https://localhost:56537/trying/out/the/url
 
-# When using HTTP: POST request that accepts the self-signed certificate
-curl -k https://localhost:56537/trying/out/the/url -d "{ \"data\": \"tests\" }"
-
 # When using HTTP: POST request
 curl http://localhost:56537/trying/out/the/url -d "{ \"data\": \"tests\" }"
+
+# When using HTTP: POST request that accepts the self-signed certificate
+curl -k https://localhost:56537/trying/out/the/url -d "{ \"data\": \"tests\" }"
 ```
 
 TODO:
